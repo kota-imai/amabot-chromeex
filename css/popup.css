@@ -1,0 +1,120 @@
+.checkbox-input {
+    display: none;
+}
+
+.checkbox-parts {
+    padding-left: 20px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.checkbox-parts::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.checkbox-input:checked+.checkbox-parts {
+    color: #c41400;
+}
+
+.checkbox-input:checked+.checkbox-parts::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 7px;
+    height: 14px;
+    transform: rotate(40deg);
+    border-bottom: 3px solid #c41400;
+    border-right: 3px solid #c41400;
+}
+
+.checkbox-input {
+    display: none;
+}
+
+.checkbox-parts {
+    padding-left: 20px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.checkbox-parts::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.checkbox-input:checked+.checkbox-parts {
+    color: 6474e4;
+}
+
+.checkbox-input:checked+.checkbox-parts::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 7px;
+    height: 14px;
+    transform: rotate(40deg);
+    border-bottom: 3px solid #c41400;
+    border-right: 3px solid #c41400;
+}
+
+.btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #c41400;
+    background: #ECECEC;
+    transition: .4s;
+}
+
+.btn-flat-simple:hover {
+    background: #c41400;
+    color: white;
+}
+
+p.nomal {
+    word-wrap: break-word;
+}
+
+p.break {
+    word-wrap: break-word;
+}
+
+.thumbnail{
+    padding: 5px;
+    width: 20%;
+    height: 20%;
+}
+
+footer{
+    /*footerの装飾*/
+    width: 100%;
+    font-size: small;
+    color: gray;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    padding-top: 120px;
+    /* position: absolute; */
+    bottom: 0;
+}
