@@ -1,16 +1,16 @@
 {
     "manifest_version" : 2,
-    "name": "あまぼっとchrome拡張",
+    "name": "あまぼっとくんchrome拡張",
     "description" : "FBA料金シミュレーターでの計算をお手軽にしました",
-    "version" : "1.0.0",
+    "version" : "2.0.0",
     "browser_action": {
-        "default_icon": "img/icon.png",
-        "default_popup": "popup.html"
+        "default_icon": "image/icon.png"
     },
     "content_scripts": [
         {
             "matches": ["https://www.amazon.co.jp/*", "https://amazon.jp/*"],
-            "js": ["js/content.js"]
+            "css": ["css/style.css", "css/bootstrap.min.css"],
+            "js": ["script/content.js"]
         }
     ],
     "permissions": [

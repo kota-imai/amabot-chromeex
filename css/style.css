@@ -1,0 +1,33 @@
+.card-header-amazonish{
+    font-weight:bold;
+    color: #fff;
+}
+
+.card-text-small {
+    padding-left: 2px;
+    padding-bottom: 1px;
+    font-size: 14px;
+}
+
+.card-text-myprofile{
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.form-text-small {
+    font-size: 13px;
+}
+
+.profit-result {
+    padding-top: 10px;
+    color: #c41400;
+    font-weight: bold;
+    text-align: end;
+}
+
+.select-include-fbafee {
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: 15px;
+}
