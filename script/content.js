@@ -66,7 +66,7 @@ const createMyElem = () => {
         + '        </div>'
         + '        <input type="" id="myfeerate" value="0" style="display: none;">'        
         + '        <input type="submit" value="dummy" style="display:none;">'
-        + '        <a class="card-text card-text-small card-text-myprofile" href="https://twitter.com/kaonaga9" style="color:gray;">kaonaga9</a> '
+        + '        <a class="card-text card-text-small card-text-myprofile" target="_blank" href="https://blog.amabot.net" style="color:gray;">物販ツール製作所</a> '
         + '      </div>'
         + '    </div>'
         + '  </div><p></p>'
@@ -102,7 +102,7 @@ const findASIN = () => {
     return "";
 }
 
-const setASIN = (asin) => {
+const setASIN = asin => {
     document.getElementById("myasin").innerText = asin
 }
 
@@ -125,7 +125,7 @@ const findBuybox = () => {
     }
 }
 
-const setBuybox = (buybox) => {
+const setBuybox = buybox => {
     document.getElementById("mybuybox").value = buybox
 }
 
@@ -134,7 +134,7 @@ const setThumnail = () => {
     document.getElementById("mythumbnail").setAttribute("src", ICON_SRC)
 }
 
-const setAmazonFee = (feeAmout) => {
+const setAmazonFee = feeAmout => {
     document.getElementById("amazonfeeamount").innerText = Math.floor(feeAmout)
 }
 
